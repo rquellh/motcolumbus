@@ -1,0 +1,61 @@
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background: url("../img/columbus-skyline-bw.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  .masthead-content {
+    z-index: 1;
+    position: relative;
+    .masthead-heading {
+      font-size: 4rem;
+      color: $primary;
+      padding-top: 1.5rem;
+    }
+    .masthead-subheading {
+      font-size: 2rem;
+    }
+    .list-next {
+      font-size: 3rem;
+      font-weight: 800;
+      padding-bottom: 1.5rem;
+    }
+    .list-talk {
+      font-size: 2rem;
+      font-weight: 600;
+      color: $primary;
+      padding-bottom: 0rem;
+    }
+    .list-speaker {
+      font-size: 2rem;
+      font-weight: 600;
+      padding-top: 0rem;
+    }
+    .list-details {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    .list-padding{
+      padding-left: 1rem
+    }
+  }
+
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: 7em;
+      padding-bottom: 10rem;
+      .masthead-content {
+        .masthead-heading {
+          font-size: 6rem;
+        }
+        .masthead-subheading {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}

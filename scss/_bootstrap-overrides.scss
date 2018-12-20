@@ -1,0 +1,53 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  font-size: 1.5rem;
+  color: $black;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+    color: $black;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($primary, 0.5);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary;
+  border-color: $secondary;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($secondary, 10%) !important;
+    border-color: darken($secondary, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($secondary, 0.5);
+  }
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #495057;
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+
+.display-4 {
+  text-align: center;
+}
