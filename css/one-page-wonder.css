@@ -34,6 +34,19 @@ h6 {
   border-radius: 5rem;
 }
 
+.paragraph {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.primary-text {
+  color: #f6fa05;
+}
+
+.background-black {
+  background-color: #000;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -177,4 +190,5 @@ header.masthead .masthead-content .list-padding {
 
 .display-4 {
   text-align: center;
+  font-size: 2.5rem;
 }
