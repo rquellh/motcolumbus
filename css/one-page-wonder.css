@@ -104,14 +104,14 @@ header.masthead .masthead-content .list-next {
 }
 
 header.masthead .masthead-content .list-talk {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #f6fa05;
   padding-bottom: 0rem;
 }
 
 header.masthead .masthead-content .list-speaker {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   padding-top: 0rem;
 }
@@ -180,7 +180,7 @@ header.masthead .masthead-content .list-padding {
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
-  background-color: #495057;
+  background-color: #343a40;
   border: 1px solid rgba(0, 0, 0, 0);
   text-align: left;
 }
