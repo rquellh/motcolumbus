@@ -92,7 +92,6 @@ header.masthead .masthead-content {
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
   color: #f6fa05;
-  padding-top: 1.5rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -102,7 +101,6 @@ header.masthead .masthead-content .masthead-subheading {
 header.masthead .masthead-content .list-next {
   font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 1.5rem;
 }
 
 header.masthead .masthead-content .list-talk {
