@@ -40,7 +40,7 @@ h6 {
 }
 
 .primary-text {
-  color: #f6fa05;
+  color: #FFE900;
 }
 
 .secondary-text {
@@ -91,7 +91,7 @@ header.masthead .masthead-content {
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
-  color: #f6fa05;
+  color: #FFE900;
 }
 
 header.masthead .masthead-content .masthead-subheading {
@@ -106,7 +106,7 @@ header.masthead .masthead-content .list-next {
 header.masthead .masthead-content .list-talk {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #f6fa05;
+  color: #FFE900;
   padding-bottom: 0rem;
 }
 
@@ -139,25 +139,25 @@ header.masthead .masthead-content .list-padding {
 }
 
 .bg-primary {
-  background-color: #f6fa05 !important;
+  background-color: #FFE900 !important;
 }
 
 .btn-primary {
-  background-color: #f6fa05;
-  border-color: #f6fa05;
+  background-color: #FFE900;
+  border-color: #FFE900;
   font-size: 1.5rem;
   color: #000;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #c5c804 !important;
-  border-color: #c5c804 !important;
+  background-color: #ccba00 !important;
+  border-color: #ccba00 !important;
   color: #000;
 }
 
 .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(246, 250, 5, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(246, 250, 5, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 233, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 233, 0, 0.5);
 }
 
 .btn-secondary {
