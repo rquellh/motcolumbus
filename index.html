@@ -69,8 +69,8 @@
           <div class="col-sm">
             <ul class="list-group">
               <li class="list-group-item list-next">Next Event</li>
-              <li class="list-group-item list-talk">From Zero to Automated in 30 Minutes</li>
-              <li class="list-group-item list-speaker">Ryan Quellhorst</li>
+              <li class="list-group-item list-talk"></li>
+              <li class="list-group-item list-speaker"></li>
               <li class="list-group-item list-details">
                 <table>
                   <tbody>
@@ -78,7 +78,7 @@
                       <th scope="row">
                       <td><i class="fas fa-clock"></i></td>
                       <td>
-                        <div class="list-padding py-2">6 - 7 pm</div>
+                        <div class="list-padding py-2 list-time"></div>
                       </td>
                       </th>
                     </tr>
@@ -86,7 +86,7 @@
                       <th scope="row">
                       <td><i class="fas fa-calendar"></i></td>
                       <td>
-                        <div class="list-padding py-2">February 14</div>
+                        <div class="list-padding py-2 list-date"></div>
                       </td>
                       </th>
                     </tr>
@@ -94,7 +94,7 @@
                       <th scope="row">
                       <td><i class="fas fa-map-marker-alt"></i></td>
                       <td>
-                        <div class="list-padding py-2">460 Polaris Parkway, Suite 150, Westerville OH, 43082</div>
+                        <div class="list-padding py-2 list-address"></div>
                       </td>
                       </th>
                     </tr>
@@ -103,7 +103,7 @@
               </li>
               <li class="list-group-item">
                 <div class="text-center">
-                  <a class="btn btn-primary px-5 mb-3" href="https://www.meetup.com/Ministry-of-Testing-Cleveland/"
+                  <a class="btn btn-primary px-5 mb-3 attend-button" href=""
                     target="_blank">Attend</a>
                 </div>
               </li>
@@ -169,7 +169,7 @@
     <div class="container-fluid background-black text-white">
       <div class="row justify-content-md-center align-items-center">
         <div class="p-5">
-          <div class="px-5">
+          <div class="px-5 pb-4">
             <h2 class="display-4">Would you like to help out?</h2>
             <hr>
             </hr>
@@ -230,6 +230,9 @@
 
   <!-- Smooth Scrolling -->
   <script src="vendor/smoothScroll.js"></script>
+
+  <!-- Maps the content.json to the element -->
+  <script src="vendor/addConent.js"></script>
 
 </body>
 
