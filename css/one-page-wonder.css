@@ -59,6 +59,15 @@ h6 {
   visibility: hidden;
 }
 
+a:visited, a:link, a:active {
+  color: #212529;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
