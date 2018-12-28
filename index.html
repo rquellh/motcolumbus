@@ -37,28 +37,28 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#what">What</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">What is Mot</a>
+            <a class="nav-link" href="#whoismot">Who is Mot</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contribute</a>
+            <a class="nav-link" href="#contribute">Contribute</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sponsors</a>
+            <a class="nav-link" href="#sponsors">Sponsors</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class="masthead text-center text-white">
+  <header class="masthead text-center text-white" id="home">
     <div class="masthead-content">
       <div class="container">
         <div class="row">
@@ -103,7 +103,8 @@
               </li>
               <li class="list-group-item">
                 <div class="text-center">
-                  <button type="button" class="btn btn-primary px-5 mb-3" onclick="window.open('https://www.meetup.com/Ministry-of-Testing-Cleveland/')">Attend</button>
+                  <a class="btn btn-primary px-5 mb-3" href="https://www.meetup.com/Ministry-of-Testing-Cleveland/"
+                    target="_blank">Attend</a>
                 </div>
               </li>
             </ul>
@@ -112,8 +113,9 @@
       </div>
   </header>
 
+  <div class="scroll-offset" id="what"></div>
   <section>
-    <div class="container-fluid background-black text-white" id="what">
+    <div class="container-fluid background-black text-white">
       <div class="row justify-content-center align-items-center">
         <div class="p-5">
           <div class="px-5">
@@ -133,8 +135,9 @@
     </div>
   </section>
 
+  <div class="scroll-offset" id="whoismot"></div>
   <section>
-    <div class="container-fluid" id="what">
+    <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
         <div class="p-5">
           <div class="px-5">
@@ -152,7 +155,8 @@
               always
               focused on providing high value training and ideas to it's growing community of software professionals.
               For
-              more information and access to free talks and training check out the Ministry of Testing's website. 
+              more information and access to free talks and training check out the <a href="https://www.ministryoftesting.com"
+                target="_blank">Ministry of Testing's website</a>. 
             </p>
           </div>
         </div>
@@ -160,8 +164,9 @@
     </div>
   </section>
 
+  <div class="scroll-offset" id="contribute"></div>
   <section>
-    <div class="container-fluid background-black text-white" id="what">
+    <div class="container-fluid background-black text-white">
       <div class="row justify-content-md-center align-items-center">
         <div class="p-5">
           <div class="px-5">
@@ -174,10 +179,12 @@
             <p class="paragraph secondary-text">Do you have other talents or can lend a helping hand?</p>
             <p class="paragraph">We'd love for you to join our team!</p>
             <div class="text-center">
-              <button type="button" class="btn btn-primary mx-5 mt-5 p-2 px-5" onclick="window.open('https://www.meetup.com/Ministry-of-Testing-Cleveland/')">I
-                want to talk</button>
-              <button type="button" class="btn btn-primary mx-5 mt-5 p-2 px-5" onclick="window.open('https://www.meetup.com/Ministry-of-Testing-Cleveland/')">I
-                want to help</button>
+              <a class="btn btn-primary mx-5 mt-5 p-2 px-5" href="https://www.meetup.com/Ministry-of-Testing-Cleveland/"
+                target="_blank">I
+                want to talk</a>
+              <a class="btn btn-primary mx-5 mt-5 p-2 px-5" href="https://www.meetup.com/Ministry-of-Testing-Cleveland/"
+                target="_blank">I
+                want to help</a>
             </div>
           </div>
         </div>
@@ -185,8 +192,9 @@
     </div>
   </section>
 
+  <div class="scroll-offset" id="sponsors"></div>
   <section>
-    <div class="container-fluid" id="sponsors">
+    <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
         <div class="p-5">
           <div class="px-5">
@@ -194,7 +202,9 @@
             <hr>
             </hr>
             <div class="mx-auto">
-              <img src="./img/hmb.png" class="rounded mx-auto d-block img-fluid" alt="HMB Logo">
+              <a href="https://www.hmbnet.com" target="_blank">
+                <img src="./img/hmb.png" class="rounded mx-auto d-block img-fluid" alt="HMB Logo">
+              </a>
             </div>
             <p class="paragraph pt-5">
               We would like to thank HMB for their continued support of the MOT Columbus. Their help makes it easier to
@@ -217,6 +227,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Smooth Scrolling -->
+  <script src="vendor/smoothScroll.js"></script>
 
 </body>
 

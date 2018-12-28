@@ -43,3 +43,10 @@ h6 {
 .background-black {
   background-color: $black
 }
+
+.scroll-offset {
+  display: block;
+  height: 4.1rem; /*This is just a hack until I can get the real value of the header*/
+  margin-top: -4.1rem;
+  visibility: hidden;
+}
