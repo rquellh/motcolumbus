@@ -58,6 +58,7 @@
     </div>
   </nav>
 
+  <!-- Main Header -->
   <header class="masthead text-center text-white" id="home">
     <div class="masthead-content">
       <div class="container">
@@ -103,8 +104,7 @@
               </li>
               <li class="list-group-item">
                 <div class="text-center">
-                  <a class="btn btn-primary px-5 mb-3 attend-button" href=""
-                    target="_blank">Attend</a>
+                  <a class="btn btn-primary px-5 mb-3 attend-button" href="" target="_blank">Attend</a>
                 </div>
               </li>
             </ul>
@@ -113,6 +113,7 @@
       </div>
   </header>
 
+  <!-- What -->
   <div class="scroll-offset" id="what"></div>
   <section>
     <div class="container-fluid background-black text-white">
@@ -135,6 +136,7 @@
     </div>
   </section>
 
+  <!-- Who is MOT -->
   <div class="scroll-offset" id="whoismot"></div>
   <section>
     <div class="container-fluid">
@@ -155,7 +157,7 @@
               always
               focused on providing high value training and ideas to it's growing community of software professionals.
               For
-              more information and access to free talks and training check out the <a href="https://www.ministryoftesting.com"
+              more information and access to free talks and training check out the <a class="links-dark" href="https://www.ministryoftesting.com"
                 target="_blank">Ministry of Testing's website</a>. 
             </p>
           </div>
@@ -164,6 +166,7 @@
     </div>
   </section>
 
+  <!-- Contribute -->
   <div class="scroll-offset" id="contribute"></div>
   <section>
     <div class="container-fluid background-black text-white">
@@ -192,6 +195,7 @@
     </div>
   </section>
 
+  <!-- Sponsors -->
   <div class="scroll-offset" id="sponsors"></div>
   <section>
     <div class="container-fluid">
@@ -219,10 +223,49 @@
   <!-- Footer -->
   <footer class="py-4 bg-black">
     <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; MOT Columbus 2018</p>
+      <div class="row align-items-center">
+        <div class="col-sm">
+          <p class="m-0 text-center">
+            <a class="links-white" data-toggle="modal" href=".footer-modal">
+              Copyright &copy; MOT Columbus 2018
+            </a>
+          </p>
+        </div>
+        <div class="col-sm text-center">
+          <a class="links-white" href="https://www.meetup.com" target="_blank">
+            <i class="fab fa-meetup fa-2x px-3"></i>
+          </a>
+          <a class="links-white" href="https://www.linkedin.com" target="_blank">
+            <i class="fab fa-linkedin fa-2x px-3"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- /.container -->
   </footer>
+
+  <!-- Footer Modal -->
+  <div class="modal fade footer-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item-modal">
+              Hosted on <a class="links-dark" href="https://pages.github.com/" target="_blank">Github pages</a>
+            </li>
+            <li class="list-group-item-modal">
+              Hacked together using the <a class="links-dark" href="https://github.com/BlackrockDigital/startbootstrap-one-page-wonder"
+                target="_blank">one
+                page wonder template</a>
+            </li>
+            <li class="list-group-item-modal">
+              Created by <a class="links-dark" href="https://www.linkedin.com/in/ryanquellhorst/" target="_blank">Ryan
+                Quellhorst</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

@@ -43,6 +43,16 @@
   text-align: left;
 }
 
+.list-group-item-modal {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: $white;
+  border: 1px solid rgba(0, 0, 0, 0);
+  text-align: left;
+}
+
 .img-fluid {
   max-width: 70%;
   height: auto;

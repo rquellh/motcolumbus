@@ -51,11 +51,17 @@ h6 {
   visibility: hidden;
 }
 
-a:visited, a:link, a:active {
+.links-dark {
     color: $gray-900;
     text-decoration: none;
 }
 
+.links-white {
+  color: $white;
+  text-decoration: none;
+}
+
 a:hover {
-  text-decoration: underline
+  color: $secondary;
+  text-decoration: underline;
 }
