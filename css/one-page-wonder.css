@@ -117,10 +117,6 @@ header.masthead .masthead-content .masthead-heading {
   color: #FFE900;
 }
 
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
-}
-
 header.masthead .masthead-content .list-next {
   font-size: 3rem;
   font-weight: 800;
@@ -148,16 +144,49 @@ header.masthead .masthead-content .list-padding {
   padding-left: 1rem;
 }
 
-@media (min-width: 992px) {
-  header.masthead header.masthead {
+/*The navbar toggle appears at this breakpoint */
+@media (max-width: 992px) {
+  header.masthead {
     padding-top: 7em;
     padding-bottom: 10rem;
   }
-  header.masthead header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 3.5rem;
   }
-  header.masthead header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+  header.masthead .masthead-content .list-next {
+    font-size: 2.5rem;
+  }
+  header.masthead .masthead-content .list-talk {
+    font-size: 2rem;
+  }
+  header.masthead .masthead-content .list-speaker {
+    font-size: 2rem;
+  }
+  header.masthead .masthead-content .list-details {
+    font-size: 1.5rem;
+  }
+}
+
+/*The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 7em;
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 3rem;
+  }
+  header.masthead .masthead-content .list-next {
+    font-size: 2rem;
+  }
+  header.masthead .masthead-content .list-talk {
+    font-size: 1.5rem;
+  }
+  header.masthead .masthead-content .list-speaker {
+    font-size: 1.5rem;
+  }
+  header.masthead .masthead-content .list-details {
+    font-size: 1rem;
   }
 }
 
