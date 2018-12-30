@@ -32,6 +32,10 @@ h6 {
   text-align: center;
 }
 
+.footer {
+  font-size: 1rem
+}
+
 .primary-text {
   color: $primary;
 }
@@ -70,11 +74,17 @@ a:hover {
   .paragraph {
     font-size: 1.5rem
   }
+  .footer {
+    font-size: .8rem
+  }
 }
 
 /*The navbar toggle appears at this breakpoint */
 @media (max-width: 768px) {
   .paragraph {
     font-size: 1.1rem
+  }
+  .footer {
+    font-size: .6rem
   }
 }
