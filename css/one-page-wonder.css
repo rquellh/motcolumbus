@@ -95,6 +95,19 @@ a:hover {
   letter-spacing: 0.1rem;
 }
 
+@media (max-width: 768px) {
+  .navbar-custom {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: .75rem;
+  }
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 0.75rem;
+  }
+}
+
 header.masthead {
   position: relative;
   overflow: hidden;
