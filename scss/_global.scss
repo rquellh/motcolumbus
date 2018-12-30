@@ -33,7 +33,7 @@ h6 {
 }
 
 .footer {
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 .primary-text {
@@ -41,11 +41,11 @@ h6 {
 }
 
 .secondary-text {
-  color: $secondary
+  color: $secondary;
 }
 
 .background-black {
-  background-color: $black
+  background-color: $black;
 }
 
 .scroll-offset {
@@ -56,8 +56,8 @@ h6 {
 }
 
 .links-dark {
-    color: $gray-900;
-    text-decoration: none;
+  color: $gray-900;
+  text-decoration: none;
 }
 
 .links-white {
@@ -70,21 +70,42 @@ a:hover {
   text-decoration: underline;
 }
 
+.section-padding {
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 3rem;
+}
+
 @media (max-width: 992px) {
   .paragraph {
-    font-size: 1.5rem
+    font-size: 1.5rem;
   }
+
   .footer {
-    font-size: .8rem
+    font-size: .8rem;
   }
 }
 
 /*The navbar toggle appears at this breakpoint */
 @media (max-width: 768px) {
   .paragraph {
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
+
   .footer {
-    font-size: .6rem
+    font-size: .6rem;
+  }
+
+  .section-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .section-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

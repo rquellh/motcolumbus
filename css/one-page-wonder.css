@@ -78,6 +78,13 @@ a:hover {
   text-decoration: underline;
 }
 
+.section-padding {
+  padding-top: 3rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 3rem;
+}
+
 @media (max-width: 992px) {
   .paragraph {
     font-size: 1.5rem;
@@ -94,6 +101,17 @@ a:hover {
   }
   .footer {
     font-size: .6rem;
+  }
+  .section-padding {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .section-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
@@ -222,7 +240,7 @@ header.masthead .masthead-content .list-padding {
     font-size: 1.5rem;
   }
   header.masthead .masthead-content .list-details {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -235,6 +253,8 @@ header.masthead .masthead-content .list-padding {
   border-color: #FFE900;
   font-size: 1.5rem;
   color: #000;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
