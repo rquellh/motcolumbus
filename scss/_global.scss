@@ -65,3 +65,16 @@ a:hover {
   color: $secondary;
   text-decoration: underline;
 }
+
+@media (max-width: 992px) {
+  .paragraph {
+    font-size: 1.5rem
+  }
+}
+
+/*The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .paragraph {
+    font-size: 1.1rem
+  }
+}

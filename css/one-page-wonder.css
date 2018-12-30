@@ -74,6 +74,19 @@ a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 992px) {
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+/*The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .paragraph {
+    font-size: 1.1rem;
+  }
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -160,8 +173,8 @@ header.masthead .masthead-content .list-padding {
 /*The navbar toggle appears at this breakpoint */
 @media (max-width: 992px) {
   header.masthead {
-    padding-top: 7em;
-    padding-bottom: 10rem;
+    padding-top: 5em;
+    padding-bottom: 5rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 3.5rem;
@@ -183,8 +196,8 @@ header.masthead .masthead-content .list-padding {
 /*The navbar toggle appears at this breakpoint */
 @media (max-width: 768px) {
   header.masthead {
-    padding-top: 7em;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 3rem;
@@ -268,4 +281,20 @@ header.masthead .masthead-content .list-padding {
 .display-4 {
   text-align: center;
   font-size: 2.5rem;
+}
+
+@media (max-width: 992px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+/*The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .btn-primary {
+    font-size: 1rem;
+  }
+  .display-4 {
+    font-size: 1.5rem;
+  }
 }
