@@ -41,3 +41,23 @@
     }
   }
 }
+
+/*Really small phones*/
+@media (max-width: 346px) {
+  .navbar-custom {
+    padding-top: .65rem;
+    padding-bottom: .65rem;
+
+    .navbar-brand {
+      font-size: .65rem;
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-size: 0.65rem; 
+        }
+      }
+    }
+  }
+}
