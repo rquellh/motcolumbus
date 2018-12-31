@@ -95,7 +95,9 @@
                       <th scope="row">
                       <td><i class="fas fa-map-marker-alt"></i></td>
                       <td>
-                        <div class="list-padding py-2 list-address"></div>
+                        <a onclick="mapSelector()">
+                          <div class="list-padding py-2 list-address"></div>
+                        </a>
                       </td>
                       </th>
                     </tr>
@@ -266,6 +268,9 @@
 
   <!-- Maps the content.json to the element -->
   <script src="vendor/addContent.js"></script>
+
+  <!-- Opens the proper map for the device -->
+  <script src="vendor/mapSelector.js"></script>
 
 </body>
 
