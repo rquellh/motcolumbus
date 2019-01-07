@@ -189,6 +189,7 @@ header.masthead .masthead-content {
 header.masthead .masthead-content .masthead-heading {
   font-size: 4rem;
   color: #FFE900;
+  text-shadow: -1px -1px 0 #212529, 1px -1px 0 #212529, -1px 1px 0 #212529, 1px 1px 0 #212529;
 }
 
 header.masthead .masthead-content .list-next {

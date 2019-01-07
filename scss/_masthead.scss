@@ -16,6 +16,7 @@ header.masthead {
     .masthead-heading {
       font-size: 4rem;
       color: $primary;
+      text-shadow: -1px -1px 0 $gray-900, 1px -1px 0 $gray-900, -1px 1px 0 $gray-900, 1px 1px 0 $gray-900;
     }
 
     .list-next {
