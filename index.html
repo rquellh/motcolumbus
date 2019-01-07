@@ -70,7 +70,9 @@
           <div class="col-sm">
             <ul class="list-group">
               <li class="list-group-item list-next">Next Event</li>
-              <li class="list-group-item list-talk"></li>
+              <li class="list-group-item list-talk">
+                <a class="links-primary list-talk-title" data-toggle="modal" href=".abstract-modal" tabindex="-1"></a>
+              </li>
               <li class="list-group-item list-speaker"></li>
               <li class="list-group-item list-details">
                 <table>
@@ -238,8 +240,20 @@
     </div>
   </footer>
 
+  <!-- Abstract Modal -->
+  <div class="modal fade abstract-modal" tabindex="-1" role="dialog" aria-labelledby="abstractModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="list-talk-title pb-3 secondary-text text-center"></div>
+          <div class="abstract"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer Modal -->
-  <div class="modal fade footer-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade footer-modal" tabindex="-1" role="dialog" aria-labelledby="footerModal" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-body footer">

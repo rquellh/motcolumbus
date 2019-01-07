@@ -5,6 +5,7 @@
         "time": "6 - 7 pm",
         "date": "February 12",
         "location": "460 Polaris Parkway, Suite 150, Westerville OH 43082",
-        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/257782430/"
-    }    
+        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/257782430/",
+        "abstract": "A simple question with a complex answer. Join Damian to hear his answer based on 25 years of diverse experience and deep research. In this collaborative session, Damian introduces and we discuss: common testing terms and definitions, typical testing-related activities, some desirable attributes, knowledge, and skills of testers, and a few questions and strategies to help assess and determine testing capability. Whether your testing knowledge is little or lots, this session is sure to offer new and different insights and provide a solid foundation on which to build advance testing knowledge."
+    }
 }

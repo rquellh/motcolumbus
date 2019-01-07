@@ -39,6 +39,11 @@ h6 {
   text-align: center;
 }
 
+.modal {
+  font-size: 1.3rem;
+  text-align: left;
+}
+
 .footer {
   font-size: 1rem;
 }
@@ -73,6 +78,11 @@ h6 {
   text-decoration: none;
 }
 
+.links-primary {
+  color: #FFE900;
+  text-decoration: none;
+}
+
 a:hover {
   color: #FA057B;
   text-decoration: none;
@@ -98,12 +108,18 @@ a:hover {
   .footer {
     font-size: .8rem;
   }
+  .modal {
+    font-size: 1.15rem;
+  }
 }
 
 /*The navbar toggle appears at this breakpoint */
 @media (max-width: 768px) {
   .paragraph {
     font-size: 1.1rem;
+  }
+  .modal {
+    font-size: .8rem;
   }
   .footer {
     font-size: .6rem;
@@ -200,7 +216,6 @@ header.masthead .masthead-content .list-next {
 header.masthead .masthead-content .list-talk {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #FFE900;
   padding-bottom: 0rem;
 }
 
