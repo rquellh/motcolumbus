@@ -1,11 +1,11 @@
 {
     "nextevent": {
-        "title": "What is Testing?",
-        "speaker": "Damian Synadinos",
+        "title": "Automated Visual Regression Testing...because CSS is Awesome",
+        "speaker": "Dave Sadlon",
         "time": "6 - 7 pm",
-        "date": "February 12",
+        "date": "March 21",
         "location": "460 Polaris Parkway, Suite 150, Westerville OH 43082",
-        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/257782430/",
-        "abstract": "A simple question with a complex answer. Join Damian to hear his answer based on 25 years of diverse experience and deep research. In this collaborative session, Damian introduces and we discuss: common testing terms and definitions, typical testing-related activities, some desirable attributes, knowledge, and skills of testers, and a few questions and strategies to help assess and determine testing capability. Whether your testing knowledge is little or lots, this session is sure to offer new and different insights and provide a solid foundation on which to build advance testing knowledge."
+        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/259188288",
+        "abstract": "We're going to look at.. -What is Automated Visual Regression Testing. -When to use Automated Visual Regression Testing-Leveraging the Backstop.js Library -Further Capabilities of Automated Visual Regression Testing. As the industry becomes more fragmented with browsers, devices, resolutions it becomes a greater risk for teams to ensure that customers experience the same customer experience across those devices. That risk hits home with testing teams as one test could be tested across multiple devices. Sure we know that automated functionality can find HTML elements but can it tell us that the site actually looks right? Come check out how we can implement safe guards against the UI of sites to ensure what looks great on Chrome also looks as good on Firefox."
     }
 }
