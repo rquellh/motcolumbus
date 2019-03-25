@@ -1,11 +1,11 @@
 {
     "nextevent": {
-        "title": "Automated Visual Regression Testing...because CSS is Awesome",
-        "speaker": "Dave Sadlon",
+        "title": "*Title Comming*",
+        "speaker": "Anna Heiermann",
         "time": "6 - 7 pm",
-        "date": "March 21",
+        "date": "April 25th",
         "location": "460 Polaris Parkway, Suite 150, Westerville OH 43082",
-        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/259188288",
-        "abstract": "We're going to look at.. -What is Automated Visual Regression Testing. -When to use Automated Visual Regression Testing-Leveraging the Backstop.js Library -Further Capabilities of Automated Visual Regression Testing. As the industry becomes more fragmented with browsers, devices, resolutions it becomes a greater risk for teams to ensure that customers experience the same customer experience across those devices. That risk hits home with testing teams as one test could be tested across multiple devices. Sure we know that automated functionality can find HTML elements but can it tell us that the site actually looks right? Come check out how we can implement safe guards against the UI of sites to ensure what looks great on Chrome also looks as good on Firefox."
+        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/",
+        "abstract": "*Abstract Comming*"
     }
 }
