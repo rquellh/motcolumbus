@@ -1,11 +1,11 @@
 {
     "nextevent": {
-        "title": "*Title Comming*",
+        "title": "Testing Myths and How to Change Them: An Agile Test Strategy",
         "speaker": "Anna Heiermann",
         "time": "6 - 7 pm",
         "date": "April 25th",
         "location": "460 Polaris Parkway, Suite 150, Westerville OH 43082",
         "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/",
-        "abstract": "*Abstract Comming*"
+        "abstract": "Agile is a great methodology based on delivering products incrementally within short time frames.  It’s usually a win win for the client because they get product sooner than the traditional waterfall approach and a win win for the Scrum Team due to less overhead, less paperwork, more team collaboration, development work, and quick releases." \n  "However, it’s not always smooth sailing.  Testers are challenged by rough waters of when to be involved, how to plan, and how to set a strategy.  Cruise with me as we navigate the waters of Agile, the roles within a Scrum team, Testing Expectations, and break some of the myths about testing within estimation, definition of done, capacity planning, and automation needs."
     }
 }
