@@ -1,11 +1,11 @@
 {
     "nextevent": {
-        "title": "Testing Myths and How to Change Them: An Agile Test Strategy",
-        "speaker": "Anna Heiermann",
+        "title": "Test Driven Development. It sounds great but how do we do it?",
+        "speaker": "Brian Bayer",
         "time": "6 - 7 pm",
-        "date": "April 25th",
-        "location": "460 Polaris Parkway, Suite 150, Westerville OH 43082",
-        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/260339022/",
-        "abstract": "Agile is a great methodology based on delivering products incrementally within short time frames.  It’s usually a win win for the client because they get product sooner than the traditional waterfall approach and a win win for the Scrum Team due to less overhead, less paperwork, more team collaboration, development work, and quick releases.</br>However, it’s not always smooth sailing.  Testers are challenged by rough waters of when to be involved, how to plan, and how to set a strategy.  Cruise with me as we navigate the waters of Agile, the roles within a Scrum team, Testing Expectations, and break some of the myths about testing within estimation, definition of done, capacity planning, and automation needs."
+        "date": "May 9th",
+        "location": "570 Polaris Parkway, Suite 250, Westerville OH 43082",
+        "meetupUrl": "https://www.meetup.com/Ministry-of-Testing-Columbus/events/260454689/",
+        "abstract": "While we often hear about the benefits of Test Driven Development (TDD) and Acceptance Test Driven Development (ATDD) and why we should follow these practices, we do not hear about HOW to actually do it.</br>In this interactive live-coding presentation we will demonstrate the mechanics of TDD using the Fizz Buzz code kata. Fizz Buzz is a children’s game where one counts up to a given number but replaces any number divisible by three with the word \"Fizz\", and any number divisible by five with the word \"Buzz\". We will start with the acceptance criteria and implement the solution using Test Driven Development. Along the way we will use and discuss general testing concepts such as equivalence classes, boundary-value analysis, test data design, and tests as documentation. We will demonstrate how TDD drives us to solution faster by exposing and pinpointing bugs in our implementation and tests dispelling the common myth that TDD slows down development.</br>This live-coding exercise demonstrates Ruby unit testing using RSpec but applies to any language and its testing framework."
     }
 }
